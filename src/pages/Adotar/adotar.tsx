@@ -2,13 +2,9 @@ import React from "react";
 import {
  Adote,
  Background,
- Box,
+ 
  Filtro,
  Grade,
- AD1,
- AD2,
- AD3,
- AD4,
  Imagem1,
  Imagem2,
  Imagem3,
@@ -19,12 +15,13 @@ const Adotar = () => {
   return (
     
     <Adote>
-      <Background>
-        <Box >
-          <h1>QUERO ADOTAR!</h1>
-          <h1>Conheça os Aumigos que estão precisando de um lar!</h1>
-        </Box>
-        </Background>
+      
+    <Background> 
+          <img height="80%" width="100%" src="../../assets/images/Gato_adotar.png"/>
+          
+   </Background>
+    
+       
 
 
       
@@ -68,17 +65,17 @@ const Adotar = () => {
 
       </Filtro>
       <Grade>
-      <AD1>
+      <div>
         <Imagem1/>
       <h1>  MEL </h1>
-       <p> &bull; Idade: 2 Anos</p>
+       < p> &bull; Idade: 2 Anos</p>
        <p> &bull; Porte: N/A</p>
        <p> &bull; Vacinado:Sim</p>
        <p> &bull; Sexo:Fêmea</p>
        <p> &bull; Espécie:Gato</p>
-       
-      </AD1>
-      <AD2>
+      
+      </div>
+      <div>
         <Imagem2/>
       <h1>  MEL </h1>
        <p> &bull; Idade: 2 Anos</p>
@@ -89,11 +86,12 @@ const Adotar = () => {
        
       
       
-      </AD2>
-      <AD3>
+      </div>
+      <div>
         <Imagem3/>
       
       <h1>  MEL </h1>
+      
        <p> &bull; Idade: 2 Anos</p>
        <p> &bull; Porte: N/A</p>
        <p> &bull; Vacinado:Sim</p>
@@ -102,8 +100,8 @@ const Adotar = () => {
        
       
       
-      </AD3>
-      <AD4>
+      </div>
+      <div>
         <Imagem4/>
       <h1>  MEL </h1>
        <p> &bull; Idade: 2 Anos</p>
@@ -114,7 +112,7 @@ const Adotar = () => {
        
       
       
-      </AD4>
+      </div>
       </Grade>
       </Adote>
       
